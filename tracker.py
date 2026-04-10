@@ -56,6 +56,7 @@ with open(LOG_FILE, "a") as f:
 commit_message = f"update work time +{session_seconds}s (total {total_time}s)"
 
 os.system("git add *")
+print("should have added")
 os.system(f'git commit -m "{commit_message}"')
 
 # ---------------------------
