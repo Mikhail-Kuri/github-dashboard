@@ -1,6 +1,6 @@
 import requests
 from collections import defaultdict
-
+## TODO Add a way to accees my private acount maybe with a token (probably)
 USERNAME = "Mikhail-Kuri"
 
 url = f"https://api.github.com/users/{USERNAME}/events/public"
